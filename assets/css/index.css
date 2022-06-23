@@ -1,0 +1,82 @@
+/* fonte */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+/* reset */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "DM Sans", sans-serif;
+	color: white;
+}
+
+body {
+	max-width: 1360px;
+	background-image: url("../css/fundo.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	background-position: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+header > img {
+	margin-left: 115px;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0 60px;
+}
+
+nav > a {
+	margin-left: 30px;
+	font-size: 2rem;
+}
+
+nav > a:hover {
+	text-decoration: underline;
+}
+
+nav > a#home {
+	text-decoration: underline;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 45px;
+	margin-top: 115px;
+}
+
+main > img {
+	width: 330px;
+	height: 220px;
+}
+
+main > p {
+	font-weight: 400;
+	font-size: 1.2rem;
+	color: white;
+}
+
+span {
+	text-decoration: underline;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin-top: 70px;
+}

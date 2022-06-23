@@ -1,0 +1,128 @@
+/* fonte */
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+/* reset */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "DM Sans", sans-serif;
+	color: white;
+}
+
+body {
+	max-width: 1360px;
+	background-image: url("../css/fundo.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+	background-position: center;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+header > img {
+	margin-left: 115px;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 0 60px;
+}
+
+nav > a {
+	margin-left: 30px;
+	font-size: 2rem;
+}
+
+nav > a:hover {
+	text-decoration: underline;
+}
+
+nav > a#contato {
+	text-decoration: underline;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#formulario {
+	margin: 75px 0;
+}
+
+input {
+	color: black;
+
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+}
+
+textarea {
+	color: black;
+
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+}
+
+button {
+	color: black;
+
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+
+	cursor: pointer;
+}
+
+div#social {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	gap: 20px;
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+span {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+
+}
+
+span > a {
+	font-size: 1.1rem;
+}
+
+span > a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	margin: 70px 0;
+}
+
+footer > p {
+	font-size: 1.1rem;
+}
